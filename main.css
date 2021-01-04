@@ -10,56 +10,123 @@ html {
     height: 100%;
    }
 
-   
+
 .navbar-bg {
-    background-color: #D36532; border-bottom: yellow;
+    background-color: #D36532;
+     border-bottom: yellow;
 } 
 
 
-.mynav {background-image: url(./images/DIPLO-LIGHTS\ ALL\ NIGHT\ 2.jpg.jpg); background-size: 2400px auto; 
-background-position: center;  
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
-height: 850px; background-color: #D36532; background-clip: content-box; 
-border-bottom: yellow;
+.mynav {
+    background-image: url(./images/DIPLO-LIGHTS\ ALL\ NIGHT\ 2.jpg.jpg);
+    background-size: 2400px auto; 
+    background-position: center;  
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 850px; background-color: #D36532; background-clip: content-box; 
+    border-bottom: yellow;
 }
 
-.nav-margin { margin:  0 auto;}
+.nav-margin { 
+    margin:  0 auto;
+}
 
-.brand {font-size: large; color: yellow; font-family: 'Press Start 2P', cursive; margin: 15px 0px 15px 45px;}
+.brand {
+    font-size: large; 
+    color: yellow; 
+    font-family: 'Press Start 2P', cursive; 
+    margin: 15px 0px 15px 45px;
+}
 
-.brand-item{ font-size: large; color: yellow; font-family: 'Press Start 2P', cursive; margin: 0 10px;  }
+.brand-item{ 
+    font-size: large; 
+    color: yellow; 
+    font-family: 'Press Start 2P', cursive; 
+    margin: 0 10px;  }
 
 .navbar .navbar-nav {
     margin: 0 auto;
 }
 
 
-#AboutMe { width: 1400px; margin: auto; padding-top: 200px;}
+#AboutMe { 
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
+}
 
-#Portfolio {width: 1400px; margin: auto; padding-top: 200px;}
+#Portfolio {
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
+}
 
-#Contact {width: 1400px; margin: auto; padding-top: 200px;}
+
+#Contact {
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
+}
 
 
 
-h2 {font-size: x-large; color: yellow; font-family: 'Press Start 2P', cursive; line-height: 300px; }
-.h1 { margin-left: 60px;}
+h2 {
+    font-size: x-large; 
+    color: yellow; 
+    font-family: 'Press Start 2P', cursive; 
+    line-height: 300px; 
+}
 
-.green-border {border-bottom: #77F5C2 solid 5px ;  }
-p{font-size: 25px; color: white; font-family: 'Exo 2', sans-serif; }
 
-.img-logo { width: 500px; height: auto;}
 
-.img-gif { width: 550px; height: auto;  border: #77F5C2 solid 4px ; padding: 5px; margin-left: 60px; }
+.green-border { 
+    border-bottom: #77F5C2 solid 5px ;  
+}
 
-.Portfolio-Row { line-height: 450px; align-content: center; }
 
-.Portfolio-Row-Text {line-height: 20px; align-content: center; 
-    width: 550px; background-color: #77F5C2; color: yellow; font-family: 'Press Start 2P', cursive; font: 22px bold;
-    border: yellow solid 2px ;  margin: -30px 0px 0px 60px;  text-align: center;}
+p{
+    font-size: 25px; 
+    color: white; 
+    font-family: 'Exo 2', sans-serif; 
+}
 
-.thumbnail {background-color: blue; line-height: 125px; margin: 20px;}
+.img-logo { 
+    width: 500px; 
+    height: auto;
+}
+
+.img-gif { 
+    width: 550px; 
+    height: auto;  
+    border: #77F5C2 solid 4px ; 
+    padding: 5px; 
+    margin-left: 60px; 
+}
+
+.Portfolio-Row { 
+    line-height: 450px; 
+    align-content: center;
+ }
+
+.Portfolio-Row-Text {
+    line-height: 20px; 
+    align-content: center; 
+    width: 550px; 
+    background-color: #77F5C2; 
+    color: yellow; 
+    font-family: 'Press Start 2P', cursive; 
+    font: 22px bold;
+    border: yellow solid 2px ;  
+    margin: -30px 0px 0px 60px;  
+    text-align: center;
+}
+
+
+.thumbnail {
+    background-color: blue; 
+    line-height: 125px;
+     margin: 20px;
+    }
 
 
 
@@ -92,7 +159,7 @@ p{font-size: 25px; color: white; font-family: 'Exo 2', sans-serif; }
 .contact-form .form-field {
     
     position:relative ;
-    margin: 32px 0px 0px 300px;
+    margin: 32px 0px 30px 300px;
 }
 
 
