@@ -1,8 +1,12 @@
 
+.body-bg{
+    background-color: #d66e3e;
+}
 
-.body-color {
-    background-color: #D36532;
-    
+
+.content-wrap {
+    background-color: #D36532; 
+    box-shadow: #77F5C2;
 }
 
 html {
@@ -19,11 +23,11 @@ html {
     position:absolute;
 z-index: 10;
 width: 100%;
-
 }
 
 .navbar{
-    padding: 20px 0;
+    position: absolute;
+    max-width: 992px;
 }
 
 .navbar-brand {
@@ -63,48 +67,23 @@ width: 100%;
 
 
 .banner {
-    position: relative;
     background: url(./images/\ diplo-LAN.jpg);
-    min-height: 500px;   
+    max-width: 100%;   
     background-size: cover;
     background-position: center;
-    padding: 250px 0 200px;
-}
-@media (max-width:768px){
-
-
-        .banner {
-            padding: 200px 0;
-        }
-
+    padding: 300px 0 200px;
+    border: yellow 4px solid;
 }
 
 
 
 
+/* Content*/
 
 
-
-#AboutMe { 
-    width: 1400px; 
-    margin: auto; 
-    padding-top: 200px;
+.titile-gif{
+    max-width: 93%;
 }
-
-#Portfolio {
-    width: 1400px; 
-    margin: auto; 
-    padding-top: 200px;
-}
-
-
-#Contact {
-    width: 1400px; 
-    margin: auto; 
-    padding-top: 200px;
-}
-
-
 
 h2 {
     font-size: x-large; 
@@ -117,58 +96,83 @@ h2 {
 
 .green-border { 
     border-bottom: #77F5C2 solid 5px ;  
+    max-width: 100%;
+
 }
+
+
 
 
 p{
     font-size: 20px; 
     color: white; 
     font-family: 'Exo 2', sans-serif; 
+} 
+
+
+
+
+/*About Me*/
+#AboutMe { 
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
 }
+
 
 .img-logo { 
     width: 400px; 
     height: auto;
 }
 
-.img-gif { 
-    width: 550px; 
-    height: auto;  
-    border: #77F5C2 solid 4px ; 
-    padding: 5px; 
-    margin-left: 60px; 
-}
 
+
+/*Portfolio*/
+#Portfolio {
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
+
+
+}
 .Portfolio-Row { 
     line-height: 450px; 
-    align-content: center;
+    
  }
 
 .Portfolio-Row-Text {
     line-height: 20px; 
     align-content: center; 
-    width: 550px; 
+    width: 500px; 
     background-color: #77F5C2; 
     color: yellow; 
     font-family: 'Press Start 2P', cursive; 
     font: 22px bold;
     border: yellow solid 2px ;  
-    margin: -30px 0px 0px 60px;  
     text-align: center;
+    margin-top: -40px;
+}
+
+.img-gif { 
+    width: 500px; 
+    height: auto;  
+    border: #77F5C2 solid 4px ; 
+    padding: 5px; 
+    margin-left: 0px; 
 }
 
 
-.thumbnail {
-    background-color: blue; 
-    line-height: 125px;
-     margin: 20px;
-    }
 
 
 
+/*Contact*/
 
+#Contact {
+    width: 1400px; 
+    margin: auto; 
+    padding-top: 200px;
 
-/* Contact Form CSS */
+}
 
 .get_in_touch {
     max-width: 800px;
