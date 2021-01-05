@@ -104,12 +104,10 @@ h2 {
 
 
 p{
-    font-size: 20px; 
+    font-size: 18px; 
     color: white; 
     font-family: 'Exo 2', sans-serif; 
 } 
-
-
 
 
 /*About Me*/
@@ -117,17 +115,20 @@ p{
     width: 1400px; 
     margin: auto; 
     padding-top: 200px;
+    padding-right: 30px;
 }
 
 
 .img-logo { 
     width: 400px; 
     height: auto;
+    float: left;
+    margin-right: -30px;
 }
 
 
 
-/*Portfolio*/
+/*Portfolio*/0
 #Portfolio {
     width: 1400px; 
     margin: auto; 
@@ -162,7 +163,23 @@ p{
 }
 
 
+@media (max-width: 768px) { 
 
+    .img-gif { 
+        width: 500px; 
+       
+    }
+
+@media (max-width: 400px) { 
+
+        .img-gif { 
+            width: 300px; 
+           
+        }
+    
+        
+
+ }
 
 
 /*Contact*/
