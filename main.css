@@ -169,7 +169,7 @@ p{
 #Contact {
     width: 1400px; 
     
-    padding-top: 200px;
+    padding-top: 100px;
 
 }
 
@@ -277,9 +277,20 @@ p{
     color: white; 
     font-family: 'Exo 2', sans-serif; 
     line-height: 15px;
+    text-align: center;
 }
 
+
+.footer .contact-info {
+    text-align: center;
+
+}
 .footer .social-media {
+    text-align: center;
+
+}
+
+.footer .Subscribe {
     text-align: center;
 
 }
@@ -294,10 +305,6 @@ p{
 }
 
 
-.footer .Subscribe {
-    text-align: center;
-
-}
 
 .footer  .textbox {
     display: block;
@@ -401,6 +408,21 @@ p{
 
 
 
+.footer .contact-info {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.footer .social-media {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer .Subscribe {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 }
 
 
@@ -419,25 +441,25 @@ p{
 @media (max-width: 400px) { 
 
         .img-gif { 
-            width: 200px; 
+            width: 250px; 
            
         }
         #AboutMe { 
-            width: 30%; 
+            width: 40%; 
            
         }
     
         #Contact { 
-            width: 30%; 
+            width: 40%; 
            
         }
     
         #portfolio { 
-            width: 30%; 
+            width: 40%; 
            
         }
         .img-logo {
-            width: 0%; 
+            width: 40%; 
         }
     
             
